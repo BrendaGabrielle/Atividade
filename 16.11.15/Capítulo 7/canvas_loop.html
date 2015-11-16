@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br"/>
+
+<head>
+<meta charset = "UTF-8"/>
+<title>Capítulo 7</title>
+<head/>
+
+<body>
+	<canvasid="tela" width="600" height="400"></canvas>
+
+
+	<script> 
+		var desenhaQuadradoVerde = function(x,y) { 
+			ar tela = document.getElementById("tela"); 
+			var c = tela.getContext("2d");
+			c.fillStyle="green"; c.fillRect(x, y, 50, 50);
+		};
+		var x = 0; while(x < 600) { desenhaQuadradoVerde(x, 0); x = x + 50; }
+
+		c.strokeStyle="black"; c.strokeRect(x, y, 50, 50);
+
+	</script>
+ 
+</body>
+</html>
